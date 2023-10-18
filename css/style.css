@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Noto Serif", serif;
+}
+
+.home-block:hover .home-button {
+  color: #fff;
+  background: #13a6ba;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <script type="text/javascript" src="./js/tailwind.js" defer></script>
+  </head>
+  <body>
+    <div class="bg-accent-2_shade w-full">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center py-[40px]">
+          <img src="./img/logo.svg" alt="" />
+          <div class="flex justify-end items-center gap-[90px]">
+            <a href="#" class="text-black">Home</a>
+            <a href="#" class="text-black">Listing</a>
+            <a href="#" class="text-black">Property</a>
+            <a href="#" class="text-black">Agents</a>
+            <a href="#" class="text-black">Blog</a>
+            <a
+              href="#"
+              class="ml-[15px] py-[10px] px-[25px] bg-primary text-white rounded-sm"
+              >Sign In</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col mt-[215px] items-center justify-start gap-[30px]"
+        >
+          <h1
+            class="text-black text-center text-[80px] font-extrabold mx-[200px]"
+          >
+            Easy way to find a home that’s perfect for you
+          </h1>
+
+          <p class="text-black_shade text-center text-lg mb-[100px]">
+            The find and most trusted marketplace of design & build house in the
+            world.
+          </p>
+          <div
+            class="flex flex-col bg-[#fff] rounded-lg shadow-[0px_4px_55px_0px_rgba(0,0,0,0.07)] justify-start items-start"
+          >
+            <div
+              class="flex px-[50px] pt-[45px] justify-start items-center gap-[88px] border-b-[1px] border-black_shade_3 w-full"
+            >
+              <a
+                href="#"
+                class="text-black text-2xl font-bold pb-[30px] border-b-[3px] border-[#021112] mb-[-1.5px]"
+                >Rent</a
+              >
+              <a
+                href="#"
+                class="text-black_shade text-2xl pb-[30px] border-b-[3px] mb-[-1.5px] border-transparent"
+                >Buy</a
+              >
+              <a
+                href="#"
+                class="text-black_shade text-2xl pb-[30px] border-b-[3px] mb-[-1.5px] border-transparent"
+                >Sell</a
+              >
+            </div>
+            <div class="flex justify-start items-center px-[50px] py-[27px]">
+              <div
+                class="flex flex-col gap-[6px] justify-start items-start pr-[88px] border-r-[1px] border-[#cfcccc]"
+              >
+                <div class="flex justify-start items-center">
+                  <img src="./img/location.svg" alt="" />
+                  <p class="text-black_shade">Location</p>
+                </div>
+                <div class="flex ml-[35px]">
+                  <p class="text-black text-4xl font-bold">Los Angels</p>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col gap-[6px] justify-start items-start pl-[45px] pr-[88px] border-r-[1px] border-[#cfcccc]"
+              >
+                <div class="flex justify-start items-center">
+                  <img src="./img/property.svg" alt="" />
+                  <p class="text-black_shade">Property Type</p>
+                </div>
+                <div class="flex ml-[35px]">
+                  <p class="text-black text-4xl font-bold">Delux</p>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col gap-[6px] justify-start items-start pl-[45px] pr-[65px]"
+              >
+                <div class="flex justify-start items-center">
+                  <img src="./img/price.svg" alt="" />
+                  <p class="text-black_shade">Average Price</p>
+                </div>
+                <div class="flex ml-[35px]">
+                  <p class="text-black text-4xl font-bold">$7000 - 8000</p>
+                </div>
+              </div>
+
+              <a
+                href="#"
+                class="text-[#fff] text-[28px] font-bold bg-[#13a6ba] rounded-2xl px-[55px] py-[25px]"
+                >Search</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-[url('./img/bg-home.png')] bg-accent-2_shade w-full h-[1150px] mt-[-150px] gap-[100px]"
+    ></div>
+
+    <div class="bg-[#fff] w-full">
+      <div class="container mx-auto">
+        <div class="flex flex-col pt-[290px] justify-start items-center">
+          <div class="flex w-full justify-between items-end">
+            <div class="flex flex-col justify-start items-start gap-[20px]">
+              <h1 class="text-black text-[58px] font-extrabold">
+                See our properties
+              </h1>
+              <p class="text-black_shade">
+                The modern way to sell/buy/rent your own home.
+              </p>
+            </div>
+
+            <form class="flex justify-center items-center gap-[50px] mb-[25px]">
+              <div class="flex gap-[15px] items-center">
+                <input
+                  type="radio"
+                  value=""
+                  class="w-[25px] h-[25px] border-black_shade_2 border-[1.3px] checked:border-accent-3 text-accent-3 ring-none outline-none"
+                />
+                <label class="text-black_shade_2 text-2xl font-bold"
+                  >Rent</label
+                >
+              </div>
+
+              <div class="flex gap-[15px] items-center">
+                <input
+                  type="radio"
+                  value=""
+                  checked
+                  class="w-[25px] h-[25px] border-black_shade_2 border-[1.3px] checked:border-accent-3 text-accent-3 ring-none outline-none"
+                />
+                <label class="text-accent-3 text-2xl font-bold">Rent</label>
+              </div>
+
+              <div class="flex gap-[15px] items-center">
+                <input
+                  type="radio"
+                  value=""
+                  class="w-[25px] h-[25px] border-black_shade_2 border-[1.3px] checked:border-accent-3 text-accent-3 ring-none outline-none"
+                />
+                <label class="text-black_shade_2 text-2xl font-bold"
+                  >Rent</label
+                >
+              </div>
+            </form>
+          </div>
+
+          <div class="slider w-full">
+            <div
+              class="home-block flex flex-col p-[30px] hover:shadow-[2px_4px_55px_0px_rgba(0,0,0,0.11)] rounded-[40px] mx-[15px] my-[100px] mb-[55px] h-[750px]"
+            >
+              <img
+                src="./img/home-1.png"
+                alt=""
+                class="rounded-[25px_25px_0_0]"
+              />
+              <h3 class="text-black text-3xl font-extrabold mt-[15px]">
+                Nomaden Omah Sekut
+              </h3>
+              <p class="text-black_shade mt-[10px]">
+                San Diego, California, USA
+              </p>
+              <p class="text-black text-[58px] font-extrabold mt-[22px]">
+                $699,000
+              </p>
+              <div class="flex justify-start items-center mb-[50px]">
+                <p
+                  class="text-black_shade_2 pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  2 Beds
+                </p>
+                <p
+                  class="text-black_shade_2 pl-[23px] pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  1 Bath
+                </p>
+                <p class="text-black_shade_2 pl-[23px]">1,109 sqft</p>
+              </div>
+
+              <a
+                href="#"
+                class="home-button px-[150px] text-center py-[25px] text-[#13a6ba] rounded-[20px] text-[28px] border-[2px] border-[#13a6ba] mb-[35px]"
+              >
+                See Details
+              </a>
+            </div>
+
+            <div
+              class="home-block flex flex-col p-[30px] hover:shadow-[2px_4px_55px_0px_rgba(0,0,0,0.11)] rounded-[40px] mx-[15px] my-[100px] mb-[55px] h-[750px]"
+            >
+              <img
+                src="./img/home-2.png"
+                alt=""
+                class="rounded-[25px_25px_0_0]"
+              />
+              <h3 class="text-black text-3xl font-extrabold mt-[15px]">
+                Real Bluestyle House
+              </h3>
+              <p class="text-black_shade mt-[10px]">
+                San Diego, California, USA
+              </p>
+              <p class="text-black text-[58px] font-extrabold mt-[22px]">
+                $10,00,000
+              </p>
+              <div class="flex justify-start items-center mb-[50px]">
+                <p
+                  class="text-black_shade_2 pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  3 Beds
+                </p>
+                <p
+                  class="text-black_shade_2 pl-[23px] pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  2 Bath
+                </p>
+                <p class="text-black_shade_2 pl-[23px]">1,309 sqft</p>
+              </div>
+
+              <a
+                href="#"
+                class="home-button px-[150px] text-center py-[25px] text-[#13a6ba] rounded-[20px] text-[28px] border-[2px] border-[#13a6ba] mb-[35px]"
+              >
+                See Details
+              </a>
+            </div>
+
+            <div
+              class="home-block flex flex-col p-[30px] hover:shadow-[2px_4px_55px_0px_rgba(0,0,0,0.11)] rounded-[40px] mx-[15px] my-[100px] mb-[55px] h-[750px]"
+            >
+              <img
+                src="./img/home-3.png"
+                alt=""
+                class="rounded-[25px_25px_0_0]"
+              />
+              <h3 class="text-black text-3xl font-extrabold mt-[15px]">
+                Luxury Umahu Mantappu
+              </h3>
+              <p class="text-black_shade mt-[10px]">
+                San Diego, California, USA
+              </p>
+              <p class="text-black text-[58px] font-extrabold mt-[22px]">
+                $599,000
+              </p>
+              <div class="flex justify-start items-center mb-[50px]">
+                <p
+                  class="text-black_shade_2 pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  2 Beds
+                </p>
+                <p
+                  class="text-black_shade_2 pl-[23px] pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  1 Bath
+                </p>
+                <p class="text-black_shade_2 pl-[23px]">1,109 sqft</p>
+              </div>
+
+              <a
+                href="#"
+                class="home-button px-[150px] text-center py-[25px] text-[#13a6ba] rounded-[20px] text-[28px] border-[2px] border-[#13a6ba] mb-[35px]"
+              >
+                See Details
+              </a>
+            </div>
+
+            <div
+              class="home-block flex flex-col p-[30px] hover:shadow-[2px_4px_55px_0px_rgba(0,0,0,0.11)] rounded-[40px] mx-[15px] my-[100px] mb-[55px] h-[750px]"
+            >
+              <img
+                src="./img/home-1.png"
+                alt=""
+                class="rounded-[25px_25px_0_0]"
+              />
+              <h3 class="text-black text-3xl font-extrabold mt-[15px]">
+                Nomaden Omah Sekut
+              </h3>
+              <p class="text-black_shade mt-[10px]">
+                San Diego, California, USA
+              </p>
+              <p class="text-black text-[58px] font-extrabold mt-[22px]">
+                $699,000
+              </p>
+              <div class="flex justify-start items-center mb-[50px]">
+                <p
+                  class="text-black_shade_2 pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  2 Beds
+                </p>
+                <p
+                  class="text-black_shade_2 pl-[23px] pr-[23px] border-r-[1px] border-black_shade_2"
+                >
+                  1 Bath
+                </p>
+                <p class="text-black_shade_2 pl-[23px]">1,109 sqft</p>
+              </div>
+
+              <a
+                href="#"
+                class="home-button px-[150px] text-center py-[25px] text-[#13a6ba] rounded-[20px] text-[28px] border-[2px] border-[#13a6ba] mb-[35px]"
+              >
+                See Details
+              </a>
+            </div>
+          </div>
+
+          <div class="flex justify-end items-center gap-[48px] w-full">
+            <a
+            href=""
+              class="h-[85px] w-[85px] bg-[url(./img/arrow-left.svg)] bg-no-repeat bg-center rounded-[9px] slider-left-arrow"
+            ></a>
+            <a
+            href=""
+              class="h-[85px] w-[85px] bg-accent-3 bg-[url(./img/arrow-right.svg)] bg-no-repeat bg-center rounded-[9px] slider-right-arrow"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/slick.js"></script>
+  </body>
+</html>
