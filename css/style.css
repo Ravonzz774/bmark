@@ -2,9 +2,36 @@
 
 body {
   font-family: "Noto Serif", serif;
+  background: #fff;
 }
 
 .home-block:hover .home-button {
   color: #fff;
   background: #13a6ba;
+}
+
+input {
+  outline: 2px solid transparent;
+}
+
+.background-nextHome {
+  background: url("../img/redLine.svg") no-repeat,
+    url("../img/yellowCircle.svg") no-repeat, url("../img/dots.svg") no-repeat;
+  background-position: 0% 0%, 100% 100%, 96% 53%;
+}
+
+.footer-icon path {
+  fill: #c8f3f9;
+}
+
+.footer-icon rect {
+  stroke: #c8f3f9;
+}
+
+.footer-icon:hover path {
+  fill: #13a6ba;
+}
+
+.footer-icon:hover rect {
+  stroke: #13a6ba;
 }
